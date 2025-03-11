@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zoológico Mundo Animal</title>
+  <style>
+    /* Estilos para o corpo da página */
+    body { 
+      font-family: Arial, sans-serif; 
+      line-height: 1.6; 
+      background: #f4f4f4; 
+      color: #333; 
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    
+    /* Container central para alinhar o conteúdo */
+    .container { 
+      width: 90%; 
+      margin: auto; 
+      overflow: hidden; 
+    }
+    
+    /* Estilos do cabeçalho */
+    header { 
+      background: #008080; 
+      color: #fff; 
+      padding: 20px 0; 
+      text-align: center; 
+    }
+    
+    /* Estilos do menu de navegação */
+    nav { 
+      background: #333; 
+      padding: 10px 0; 
+    }
+    nav ul { 
+      list-style: none; 
+      text-align: center; 
+    }
+    nav ul li { 
+      display: inline; 
+      margin: 0 15px; 
+      transition: background-color 0.3s ease; /* Transição para mudança de cor */
+    }
+    nav ul li a { 
+      color: #fff; 
+      text-decoration: none; 
+      font-weight: bold; 
+      padding: 5px 10px; 
+      display: inline-block; 
+    }
+    /* Efeito hover para itens do menu */
+    nav ul li:hover { 
+      background-color: #222; 
+    }
+    
+    /* Seção para o conteúdo principal */
+    section { 
+      padding: 20px 0; 
+    }
+    
+    /* Estilo do rodapé */
+    footer { 
+      background: #333; 
+      color: #fff; 
+      text-align: center; 
+      padding: 10px 0; 
+      margin-top: 20px; 
+    }
+    
+    /* Área reservada para o mapa (fictício) */
+    .map iframe { 
+      width: 100%; 
+      height: 300px; 
+      background: #ddd; 
+      display: flex; 
+      align-items: center; 
+      justify-content: center; 
+      margin: 20px 0; 
+    }
+    
+    /* Estilos para responsividade em telas menores */
+    @media (max-width: 768px) {
+      nav ul li { 
+        display: block; 
+        margin: 10px 0; 
+      }
+      .map { 
+        height: 200px; 
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- Cabeçalho do site -->
+  <header>
+    <h1>Zoológico Mundo Animal</h1>
+    <p>Descubra a diversidade do mundo animal</p>
+  </header>
+  
+  <!-- Menu de navegação -->
+  <nav>
+    <ul>
+      <li><a href="index.html">Início</a></li>
+      <li><a href="animals.html">Animais</a></li>
+    </ul>
+  </nav>
+  
+  <!-- Conteúdo principal -->
+  <div class="container">
+    <section>
+      <h2>Bem-vindo ao Zoológico Mundo Animal</h2>
+      <p>
+        O Zoológico Mundo Animal é um projeto fictício criado para demonstrar a riqueza da biodiversidade. Inspirado pela natureza, nosso zoológico reúne exemplares de diferentes grupos animais, com o intuito de educar e despertar o respeito pela vida.
+      </p>
+      <p>
+        Localizado em um espaço cercado pela natureza e equipado com infraestrutura moderna, nosso zoológico se tornou referência em conservação e estudo das espécies.
+      </p>
+    </section>
+    
+    <!-- Seção de localização com mapa fictício -->
+    <section>
+      <h2>Localização</h2>
+      <div class="map">
+        <!-- Espaço reservado para o mapa de localização -->
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d197036.94776152898!2d-46.59953936265708!3d-23.41661056171748!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1741688168643!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </section>
+  </div>
+  
+  <!-- Rodapé do site -->
+  <footer>
+    <p>&copy; 2025 Zoológico Mundo Animal. Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
